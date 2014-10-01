@@ -17,7 +17,7 @@ author:
     weibo: hilllinux
 qiniudn: 
 atom_path: /atom.xml
-rss_path: 
+rss_path:  /rss.xml
 
 # Build settings
 markdown: redcarpet
