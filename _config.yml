@@ -28,7 +28,7 @@ permalink: /:categories/:year-:month/:title.html
 # comment
 comments:
     duoshuo:
-        name: #havanna
+        name: hilllinux
         rcomments:
             num: 10
             avatar: 0
@@ -44,6 +44,8 @@ analytics:
 # blogroll
 blogroll: true
 brlist:
+    - text: "Jennings_wang"
+      url : //blog.sec0day.com/
   #    - text: "刘静的博客"
   #      url : //upliu.net/
   #    - text: "小天地，大世界"
