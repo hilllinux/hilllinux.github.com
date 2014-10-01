@@ -1,0 +1,52 @@
+# Site settings
+title: "Havee's Space"
+keywords: "linux, gentoo, internet, sql, jekyll, BSD, MAC, havee"
+description: "Havee Hobbies, Knowledge Records。"
+baseurl: ""
+url: "http://havee.me"
+highlighter: pygments
+paginate: 5
+author:
+    name: Havee
+    github: Ihavee
+    email:
+    gitcafe: Havee
+    twitter:
+    facebook:
+    googleplus:
+    weibo: Havanna
+qiniudn: //havee.qiniudn.com
+atom_path: /atom.xml
+rss_path: /rss.xml
+
+# Build settings
+markdown: redcarpet
+redcarpet:
+    extensions: ["fenced_code_blocks", "tables", "highlight", "strikethrough"]
+permalink: /:categories/:year-:month/:title.html
+
+# comment
+comments:
+    duoshuo:
+        name: havanna
+        rcomments:
+            num: 10
+            avatar: 0
+            time: 0
+            title: 0
+            admin: 0
+            length: 26
+# 网站统计
+analytics:
+    baidu:
+        siteid: 707c49682d45342c4abaa7f2fbdd23dd        # 百度统计 js 代码后的字符串
+
+# blogroll
+blogroll: true
+brlist:
+    - text: "刘静的博客"
+      url : //upliu.net/
+    - text: "小天地，大世界"
+      url : //www.lyblog.net/
+    - text: "清风的网络空间"
+      url : //phpcj.org/
