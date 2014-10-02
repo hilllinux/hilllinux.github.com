@@ -65,7 +65,6 @@ nginx conf 参考配置:
 
     server {  
         listen 80;  
-        server_name yurtree.com www.yurtree.com;    
         
         gzip on; 
         gzip_min_length 1k; 
@@ -74,7 +73,7 @@ nginx conf 参考配置:
         gzip_types text/plain application/x-javascript text/css application/xml text/javascript application/x-httpd-php image/jpeg image/gif image/png; 
         gzip_vary off; 
         gzip_disable "MSIE [1-6]\."; 
-        root /var/www/yurtree;   
+        root /var/www;
         index index.html index.htm index.php;    
         
         location / {     
