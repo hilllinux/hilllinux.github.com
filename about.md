@@ -8,10 +8,10 @@ description: "业余爱好的点滴记录，同时作为配置备份的存储地
  
 ```ruby
 class Profile
-  attr_accessor :name,:company,email
-  attr_accessor :skill,:description
+  attr_accessor :name, :company, :email
+  attr_accessor :skill, :description
   def initialize
-      :name    = "王宋清"
+      :name    = "Wang Songqing"
       :company = "Huawei Technologies"
       :skill   = ["Ruby", "Web Development", "DevOps", "Computer Security"] 
       :email   = "songqing.wang (at) hotmail.com"
