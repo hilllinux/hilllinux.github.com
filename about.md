@@ -4,25 +4,22 @@ title: "About"
 description: "业余爱好的点滴记录，同时作为配置备份的存储地，好记性不如滥笔头。"
 ---
 
-#### ChangeLog
-- 2014年10月: 开始写blog
-
-
 #### Who Am I
-- 立志要成为一名合格的白帽子；
-- 喜欢黑客那种亦正亦邪的感觉；
-{% highlight ruby %}
+ 
+```ruby
 class Profile
-  attr_accessor :name,:company,:skill
+  attr_accessor :name,:company,:skill,:description
   def initialize
       :name    = "王宋清"
       :company = "Huawei Technologies"
       :skill   = ["Ruby", "Web Development", "DevOps", "Computer Security"] 
+      :description = "新手白帽一枚"
   end
 end
-{% endhighlight%}
+```
 
-
+#### ChangeLog
+- 2014年10月: 开始写blog
 
 
 {% include comments.html %}
