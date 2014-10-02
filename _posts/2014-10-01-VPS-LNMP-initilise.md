@@ -179,7 +179,7 @@ mysql 导入sql文件
     $ mysql -h localhost -uroot -p      
     create database xxxx; 
     use xxxx;             
-    source /home/wangsongqing/xxxx_backup.sql "
+    source /home/wangsongqing/xxxx_backup.sql 
                                   
     
 ##### 4.重启服务
