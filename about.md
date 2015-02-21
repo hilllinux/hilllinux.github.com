@@ -13,7 +13,7 @@ class Profile
   def initialize
       :name    = "Wang Songqing"
       :company = "Huawei Technologies"
-      :skill   = ["Ruby", "Web Development", "DevOps", "Computer Security"] 
+      :skill   = ["ngx_openresty", "Lua", "Ruby", "Web Development", "DevOps", "Computer Security"] 
       :email   = "songqing.wang (at) hotmail.com"
       :description = "新手白帽一枚"
   end
@@ -22,6 +22,5 @@ end
 
 #### ChangeLog
 - 2014年10月: 开始写blog
-
 
 {% include comments.html %}
