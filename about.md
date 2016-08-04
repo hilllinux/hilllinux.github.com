@@ -22,5 +22,6 @@ end
 
 #### ChangeLog
 - 2014年10月: 开始写blog
+- 2016年08月: 试着继续坚(wa)持(keng)
 
 {% include comments.html %}
