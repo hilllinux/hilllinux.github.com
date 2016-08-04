@@ -5,7 +5,7 @@ keywords: "PHPer, Linux, Gentoo,  Mac OSX, Computer Security"
 description: "Hobbies, Knowledge Records。"
 baseurl: ""
 url: "http://blog.sec0day.com"
-highlighter: pygments
+highlighter: rouge
 paginate: 5
 author:
     name: Jennings_Wang
