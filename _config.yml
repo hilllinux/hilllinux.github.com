@@ -1,4 +1,5 @@
 # Site settings
+gems: [jekyll-paginate]
 title: "Jennings_Wang"
 keywords: "PHPer, Linux, Gentoo,  Mac OSX, Computer Security"
 description: "Hobbies, Knowledge Records。"
@@ -20,8 +21,8 @@ atom_path: /atom.xml
 rss_path:  /rss.xml
 
 # Build settings
-markdown: redcarpet
-redcarpet:
+markdown: Kramdown
+Kramdown:
     extensions: ["fenced_code_blocks", "tables", "highlight", "strikethrough"]
 permalink: /:categories/:year-:month/:title.html
 
@@ -42,7 +43,7 @@ analytics:
         siteid:       # 百度统计 js 代码后的字符串
 
 # blogroll
-blogroll: true
+blogroll: false
 brlist:
     - text: "Jennings_wang"
       url : //blog.sec0day.com/
